@@ -1,0 +1,60 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "set NODE_OPTIONS=--trace-warnings && tsdx build",
+    "prestart": "set NODE_OPTIONS=--trace-warnings",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {},
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "v1-whatsapp-api-client",
+  "author": "rkudakov",
+  "module": "dist/v1-whatsapp-api-client.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/v1-whatsapp-api-client.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/v1-whatsapp-api-client.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.9.0",
+    "@types/dotenv": "^8.2.0",
+    "husky": "^4.3.0",
+    "size-limit": "^4.9.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.21.0"
+  }
+}
