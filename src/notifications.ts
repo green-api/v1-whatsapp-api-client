@@ -22,6 +22,6 @@ export class Notifications {
      * @param receiptId message id get coming from notification
      */
     async deleteNotification(receiptId: number) : Promise<any> {
-        return this.api.delete(`this.url/${receiptId}`)
+        return this.api.delete(`${this.url}/${receiptId}`)
     }
 }
