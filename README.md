@@ -1,8 +1,8 @@
 # v1-whatsapp-api-client for javascript
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/green-api/v1-whatsapp-api-client/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/green-api/whatsapp-bot.svg)](https://github.com/green-api/v1-whatsapp-api-client/releases)
-[![npm version](https://badge.fury.io/js/%40green-api%2Fwhatsapp-bot.svg)](https://www.npmjs.com/package/@green-api/v1-whatsapp-api-client)
+[![GitHub release](https://img.shields.io/github/v/release/green-api/v1-whatsapp-api-client.svg)](https://github.com/green-api/v1-whatsapp-api-client/releases)
+[![npm version](https://badge.fury.io/js/%40green-api%2Fv1-whatsapp-api-client.svg)](https://www.npmjs.com/package/@green-api/v1-whatsapp-api-client)
 
 ## Introduction
 
@@ -53,6 +53,22 @@ import WhatsAppApi from '@green-api/v1-whatsapp-api-client'
 ```
 
 More examples [here...](examples/).
+
+## Preparing development environment
+
+Notice project is using tsdx bootstrap
+
+1. Clone repository
+2. install tsdx globally
+3. Run npm install command
+
+After that you can run tests with command ``npm run test``
+
+## Publish new library version to npm
+```
+npm login
+npm publish --access public
+```
 
 ## License
 

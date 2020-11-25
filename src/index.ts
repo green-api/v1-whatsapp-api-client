@@ -18,3 +18,7 @@ export default class WhatsAppApi {
         this.notifications = new Notifications(api)
     }
 }
+
+module.exports = Object.assign(WhatsAppApi, {
+    default: WhatsAppApi,
+})

@@ -1,11 +1,28 @@
 {
-  "version": "0.1.0",
+  "author": {
+    "name": "Slonbook team",
+    "email": "support@green-api.com"
+  },
+  "homepage": "https://github.com/green-api/v1-whatsapp-api-client#readme",
+  "bugs": {
+    "url": "https://github.com/green-api/v1-whatsapp-api-client/issues"
+  },
+  "description": "WhatsApp wrapper library for green-api V1 protocol",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
+  ],
+  "keywords": [
+    "whatsapp",
+    "whatsapp api",
+    "whatsapp library",
+    "whatsapp send-message",
+    "whatsapp sender",
+    "whatsapp message-sender"
   ],
   "engines": {
     "node": ">=10"
@@ -30,8 +47,11 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "v1-whatsapp-api-client",
-  "author": "rkudakov",
+  "name": "@green-api/v1-whatsapp-api-client",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/green-api/ v1-whatsapp-api-client.git"
+  },
   "module": "dist/v1-whatsapp-api-client.esm.js",
   "size-limit": [
     {
