@@ -1,4 +1,4 @@
-# v1-whatsapp-api-client for javascript
+# v1 WhatsApp phone-free API wrapper library
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/green-api/v1-whatsapp-api-client/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/green-api/v1-whatsapp-api-client.svg)](https://github.com/green-api/v1-whatsapp-api-client/releases)

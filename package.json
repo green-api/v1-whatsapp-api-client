@@ -22,7 +22,8 @@
     "whatsapp library",
     "whatsapp send-message",
     "whatsapp sender",
-    "whatsapp message-sender"
+    "whatsapp message-sender",
+    "phone-free"
   ],
   "engines": {
     "node": ">=10"
