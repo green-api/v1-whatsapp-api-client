@@ -1,5 +1,11 @@
 # v1 WhatsApp phone-free API wrapper library
 
+> [!WARNING]
+This package is deprecated.
+Please use [v2 version](https://github.com/green-api/whatsapp-api-client-js-v2) instead.
+
+---
+
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/green-api/v1-whatsapp-api-client/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/green-api/v1-whatsapp-api-client.svg)](https://github.com/green-api/v1-whatsapp-api-client/releases)
 [![npm version](https://badge.fury.io/js/%40green-api%2Fv1-whatsapp-api-client.svg)](https://www.npmjs.com/package/@green-api/v1-whatsapp-api-client)

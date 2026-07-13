@@ -8,7 +8,7 @@
     "url": "https://github.com/green-api/v1-whatsapp-api-client/issues"
   },
   "description": "WhatsApp wrapper library for green-api V1 protocol",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -51,7 +51,7 @@
   "name": "@green-api/v1-whatsapp-api-client",
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/green-api/ v1-whatsapp-api-client.git"
+    "url": "git+ssh://github.com/green-api/v1-whatsapp-api-client.git"
   },
   "module": "dist/v1-whatsapp-api-client.esm.js",
   "size-limit": [
